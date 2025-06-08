@@ -7,10 +7,10 @@ public class VariablesExample
     public static void main(String [] args)
     {
         String a = "Hello";
-        int b = 3;
-        int c = 5;
+        int b = 5;
         System.out.println(a);
         System.out.println(b);
-        System.out.println(c);
+        b = b+1;
+        System.out.println(b);
     }
 }
